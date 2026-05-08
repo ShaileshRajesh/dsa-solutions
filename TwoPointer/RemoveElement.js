@@ -51,3 +51,6 @@ var removeElement = function (nums, val) {
   }
   return j;
 };
+
+const res = removeDuplicates([3, 2, 2, 3], 3);
+console.log(res);
